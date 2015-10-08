@@ -1,0 +1,58 @@
+<resources>
+
+    <!-- activity strings -->
+    <string name="app_name">SimpleThemeEngine</string>
+    <string name="title_activity_main">SimpleThemeEngine Demo</string>
+    <string name="color_picker_str">Pick a color</string>
+    <string name="btn_change_prim">Change primary color</string>
+    <string name="btn_change_prim_dark">Change primary dark color</string>
+    <string name="btn_change_accent">Change accent color</string>
+    <string name="card_header_text">Y U NO CHANGE COLOR?!</string>
+
+    <!-- menu strings -->
+    <string name="menu_about_text">About</string>
+    <string name="menu_libs_text">Used Libraries</string>
+
+    <!-- exit dialog text -->
+    <string name="exit_dialog_title">Quit Demo Application?</string>
+    <string name="exit_dialog_content">Do you want to leave the SimpleThemeEngine demo application?</string>
+
+    <!-- general dialog text -->
+    <string name="dialog_text_ok">Ok</string>
+    <string name="dialog_text_cancel">Cancel</string>
+    <string name="dialog_text_yes">Yes</string>
+    <string name="dialog_text_no">No</string>
+
+    <!-- about dialog strings -->
+    <string name="about_dialog_title">About SimpleThemeEngine</string>
+    <string name="about_dialog_content"><![CDATA[
+        SimpleThemeEngine by <b>Patrick J</b>.<br />
+        This Library is completely OpenSource and can be found on <b>GitHub</b>:<br />
+        <a href=\'https://github.com/pddstudio/simplethemeengine\'>View project on GitHub</a><br />
+        Please report bugs and improvements on the GitHub issue tracker:<br />
+        <a href=\'https://github.com/pddstudio/simplethemeengine/issues\'>Report an issue | Feature request</a><br />
+        <br>
+        Feel free to contact me on <b>Google+</b>:<br />
+        <a href=\'https://plus.google.com/+PatrickJung42\'>My Google+ profile</a><br />
+        or <b>GitHub</b>:<br />
+        <a href=\'https://github.com/pddstudio\'>PDDStudio on GitHub</a>
+        ]]></string>
+
+    <!-- lib dialog strings -->
+    <string name="lib_dialog_title">Libraries used in this Demo</string>
+    <string name="lib_dialog_content"><![CDATA[
+        <u><b>Material Dialogs</b> <i>by <a href=\'https://github.com/afollestad\'>Aidan Follestad</a></i></u><br />
+        Material Dialogs is a beautiful, easy-to-use, and customizable dialogs API, enabling you to use Material designed dialogs down to API 8<br />
+        <u><b>License:</b></u><br /> <i>Licensed under the MIT License.</i><br />
+        <u><b>GitHub Page:</b></u><br />
+        <a href=\'https://github.com/afollestad/material-dialogs\'><b>Material Dialogs</b> on <b>GitHub</b></a><br />
+        <br />
+        <u><b>Paper</b> <i>by <a href=\'https://github.com/pilgr\'>pilgr</a></i></u><br />
+        Paper is a fast NoSQL data storage for Android that lets you save and restore Java objects by using efficient Kryo serialization and handling data structure changes automatically.<br />
+        <u><b>License:</b></u><br /> <i>Licensed under the Apache 2.0 License.</i><br />
+        <u><b>GitHub Page:</b></u><br />
+        <a href=\'https://github.com/pilgr/Paper\'><b>Paper</b> on <b>GitHub</b></a>
+        <br>
+        ]]></string>
+
+</resources>
