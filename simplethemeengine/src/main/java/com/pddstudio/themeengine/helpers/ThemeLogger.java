@@ -17,7 +17,7 @@ public class ThemeLogger {
      */
 
 
-    private static final boolean showDebugMessages = true;
+    private static final boolean showDebugMessages = false;
     private static ThemeLogger themeLogger;
     private static LogMessageType defaultMessageType = LogMessageType.DEFAULT;
 
@@ -93,7 +93,7 @@ public class ThemeLogger {
      */
     public static void addLogMessage(Class<?> classTag, String message) {
         String className = classTag.getSimpleName();
-        if(themeLogger.validateString(className) && themeLogger.validateString(message)) themeLogger.log(defaultMessageType, className, message);
+        if(showDebugMessages && themeLogger.validateString(className) && themeLogger.validateString(message)) themeLogger.log(defaultMessageType, className, message);
     }
 
     /**

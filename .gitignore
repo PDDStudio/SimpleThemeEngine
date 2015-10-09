@@ -65,7 +65,7 @@ gradle-app.setting
 
 # Gradle Signing
 signing.properties
-trestle.keystore
+simplethemeengine.keystore
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
