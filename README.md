@@ -19,14 +19,14 @@ This library does only serve themes and reacts on changes, in case you have dyna
 To use the SimpleThemeEngine you have to add it as dependency to your project.
 
 ####Gradle
-`compile 'com.pddstudio:simplethemeengine:0.0.1'`
+`compile 'com.pddstudio:simplethemeengine:0.0.2'`
 
 ####Maven
 ```
 <dependency>
     <groupId>com.pddstudio</groupId>
     <artifactId>simplethemeengine</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2</version>
 </dependency>
 ```
 ##Quickstart
